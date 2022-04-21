@@ -4,7 +4,7 @@ install:
 		
 		
 format:
-	black*.py
+	black *.py
 	
 lint:
 	pylint --disable=R,C hello.py
